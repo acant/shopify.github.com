@@ -41,7 +41,7 @@ jQuery(function($){
 
         this.getCustomRepos();
         this.addMembers();
-        this.tracking();
+        // this.tracking();
 
         $('a[href="#"]').on('click',function(e){e.preventDefault()});
 
@@ -191,6 +191,7 @@ jQuery(function($){
         });
       },
 
+/*
       tracking: function() {
         $('a[data-track]').on('click', function(e) {
           var data = $(this).data('track');
@@ -201,6 +202,8 @@ jQuery(function($){
           // }
         });
       }
+*/
+
 
     };
     $.extend(app, timber);
