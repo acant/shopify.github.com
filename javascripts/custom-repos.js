@@ -1,5 +1,5 @@
 // Opt-in repos (case sensitive)
-// - These are all children of Shopify and visible at https://github.com/Shopify
+// - These are all children of sugarcrm and visible at https://github.com/sugarcrm
 var optInRepos = [
   'sugar_utils',
   'rspec-timecop',
@@ -16,6 +16,6 @@ var customRepoLanguage = {
 }
 
 // Custom repo avatars. Dimensions should be 40x40
-// - Be sure a custom repo doesn't have the same name as a Shopify one, or a one will be overridden
+// - Be sure a custom repo doesn't have the same name as a SugarCRM one, or a one will be overridden
 var customRepoAvatar = {
 }
